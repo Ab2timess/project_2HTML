@@ -13,6 +13,7 @@ nav{
     grid-column: 1 / 4;
     background-image: url(../images/andres-jasso-PqbL_mxmaUE-unsplash.jpg);
     background-size: cover;
+    opacity: 70%;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -25,6 +26,16 @@ h1{
     color: azure;
     font-size: 5em;
 }
+
+
+form {
+    grid-column: 2 /;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+
+}
+
 button{
     grid-row: 3;
     grid-column: 2 / 3;
@@ -33,6 +44,9 @@ button{
     border-radius: 15px;    
 }
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: blueviolet;
     grid-column: 1 / 4;
     grid-row:  4;
