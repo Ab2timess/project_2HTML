@@ -15,14 +15,15 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
-}
-h1{
-    grid-column: 2 / 3;
-    background-color: azure;
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+}
+h1{
+    color: azure;
+    font-size: 5em;
 }
 button{
     grid-row: 3;
