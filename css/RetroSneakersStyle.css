@@ -40,6 +40,9 @@ nav a{
     color:rgb(255, 255, 255);
     padding: 15px;
 }
+.bodyText h1, h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 .nav-container{
     grid-column: 1 / 5;
@@ -69,6 +72,9 @@ body{
 .bodyText p, .monthSale p {
     margin-top: 10px;
 }
+.monthSale h1, h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .monthSale{
     grid-column: 2 / 4;
     text-align: center;
@@ -80,6 +86,15 @@ img{
     width: 350px;
 
 }
+
+.contentHead{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 0px 10px 5px ;
+}
+.contentParagraph{
+    margin: 0px 20px;   
+}
+
 .box{
     grid-column: 1;
     display: flex;
@@ -127,7 +142,7 @@ img{
     border-radius: 15px;
 }
 .box-selection button{
-    margin-top: 42px;
+    margin-top: 20px;
 }
 .box-selection2{
     margin-top: 10px;
