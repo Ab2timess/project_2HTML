@@ -123,14 +123,17 @@ img{
     margin-top: 10px;
     width: 350px;
     background-color: bisque;
-    height: 390px;
+    height: 425px;
     border-radius: 15px;
+}
+.box-selection button{
+    margin-top: 42px;
 }
 .box-selection2{
     margin-top: 10px;
     width: 350px;
     background-color: antiquewhite;
-    height: 533px;
+    height: 425px;
     border-radius: 15px;
 }
 .box-selection3{
@@ -141,8 +144,11 @@ img{
     border-radius: 15px;
 }
 .box2 img{
-    height: 350px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
 }
+
 .box4{
     display: flex;
     justify-content: center;
@@ -153,7 +159,7 @@ img{
     margin-top: 10px;
     width: 350px;
     background-color: antiquewhite;
-    height: 420px;
+    height: 425px;
     border-radius: 15px;
 }
 
@@ -170,6 +176,7 @@ img{
     grid-row: 6;
     height: 10vh;
     background-color: black;
+    margin-top: 100px;
 }
 .footerContainer nav{
     display: flex;
@@ -179,3 +186,4 @@ img{
     color: white;
     text-align: center;
 }
+
