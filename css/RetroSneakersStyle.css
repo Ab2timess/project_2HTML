@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.gridContainer{    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 0.5fr 1fr 0.5fr;
+    min-height: 100vh;
+}
+#banner h1{
+    background-color: plum;
+    padding: 0 50px;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    grid-column: 1 / 5;
+    background-image: url(../images/andras-vas-IN5NlcSZJNY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: black;
+    transition: 2s;
+    box-shadow: 5px 3px 2px grey;
+}
+
+
+
+nav a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.nav-container{
+    grid-column: 1 / 5;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: black;
+    
+}
+
+body{
+    background-color: rgb(247, 245, 245);
+}
+
+.bodyText{
+    margin-top: 15px;
+    grid-column: 2/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bodyText p, .monthSale p {
+    margin-top: 10px;
+}
+.monthSale{
+    grid-column: 2 / 4;
+    text-align: center;
+}
+.monthSale h1{
+    margin-top: 10px;
+}
+img{
+    width: 350px;
+
+}
+.box{
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    grid-column: 3;
+    display: flex;
+    justify-content: center;
+
+}
+.box3{
+    grid-column: 4;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-selection:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 2s;
+    color: white;
+}
+.box-selection2:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 2s;
+    color: white;
+}
+.box-selection3:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 2s;
+    color: white;
+}
+.box-selection4:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 2s;
+    color: white;
+}
+
+.box-selection{
+    margin-top: 10px;
+    width: 350px;
+    background-color: bisque;
+    height: 390px;
+    border-radius: 15px;
+}
+.box-selection2{
+    margin-top: 10px;
+    width: 350px;
+    background-color: antiquewhite;
+    height: 533px;
+    border-radius: 15px;
+}
+.box-selection3{
+    margin-top: 10px;
+    width: 350px;
+    background-color: antiquewhite;
+    height: 425px;
+    border-radius: 15px;
+}
+.box2 img{
+    height: 350px;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    grid-column: 2;
+    grid-row: 5;
+}
+.box-selection4{
+    margin-top: 10px;
+    width: 350px;
+    background-color: antiquewhite;
+    height: 420px;
+    border-radius: 15px;
+}
+
+#click{
+    padding: 10px;
+    border-radius: 15px;
+    float: right;
+    background-color: blue;
+    color: white;
+    margin-right: 10px;
+}
+.footerContainer{
+    grid-column: 1 / 5;
+    grid-row: 6;
+    height: 10vh;
+    background-color: black;
+}
+.footerContainer nav{
+    display: flex;
+    justify-content: center;
+}
+.footerContainer p{
+    color: white;
+    text-align: center;
+}
