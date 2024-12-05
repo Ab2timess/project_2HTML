@@ -40,6 +40,16 @@ nav a{
     color:rgb(255, 255, 255);
     padding: 15px;
 }
+
+
+
+.bodyText h1{
+    margin-top: 30px;
+}
+.contentParagraph{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .bodyText h1, h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -69,8 +79,12 @@ body{
     text-align: center;
 }
 
+.monthSale P{
+    margin-bottom: 20px;
+}
+
 .bodyText p, .monthSale p {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .monthSale h1, h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -80,7 +94,7 @@ body{
     text-align: center;
 }
 .monthSale h1{
-    margin-top: 10px;
+    margin-top: 50px;
 }
 img{
     width: 350px;
@@ -138,24 +152,25 @@ img{
     margin-top: 10px;
     width: 350px;
     background-color: bisque;
-    height: 425px;
+    height: 455px;
     border-radius: 15px;
 }
 .box-selection button{
-    margin-top: 20px;
+    margin-top: 33px;
 }
+
 .box-selection2{
     margin-top: 10px;
     width: 350px;
     background-color: antiquewhite;
-    height: 425px;
+    height: 455px;
     border-radius: 15px;
 }
 .box-selection3{
     margin-top: 10px;
     width: 350px;
     background-color: antiquewhite;
-    height: 425px;
+    height: 455px;
     border-radius: 15px;
 }
 .box2 img{
@@ -174,7 +189,7 @@ img{
     margin-top: 10px;
     width: 350px;
     background-color: antiquewhite;
-    height: 425px;
+    height: 455px;
     border-radius: 15px;
 }
 
@@ -186,6 +201,7 @@ img{
     color: white;
     margin-right: 10px;
 }
+
 .footerContainer{
     grid-column: 1 / 5;
     grid-row: 6;
