@@ -1,0 +1,80 @@
+.navbar-container{
+    grid-area: nav;
+    display: grid;
+    grid-template-areas:
+    "left left right";
+    grid-template-columns: auto auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 70px;
+    background-color: var(--purple);
+    border-bottom: 2.5px solid var(--lightpurple);
+}
+
+.navbar-left{
+    grid-area: left;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.navbar-left .nav-links a:hover, .user a:hover{
+    color: #6A37FF;
+}
+
+
+.button{
+    display: inline-block;
+    border: 2px solid var(--lightpurple);
+    border-radius: 50px;
+    transition: all 0.3 ease;
+    
+}
+
+.button a, .user a{
+    text-transform: capitalize;
+}
+
+.button:hover {
+    background-color: #4f15fc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.login, .banner-container button{
+    background-color: var(--lightpurple);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.sign-up{
+    margin-left: 15px;
+}
+
+.user a{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.user a i{
+    margin-right: 5px;
+    color: var(--lightpurple);
+}
