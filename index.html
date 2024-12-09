@@ -1,95 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlyCity</title>
-    <link rel="stylesheet" href="../project_2HTML/css/home.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlyCity</title>
+  <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-    <div class="gridContainer">
-        <div class="buttonContainer">
-            <button class="login-button">Login</button>
-            <button class="signup-button">Register</button>
-        </div>
-
-        <div id="banner">
-            <h1>Welcome to FlyCity</h1>
-        </div>
-
-        <div class="nav-container">
-            <nav>
-                <a href="../index.html">Home</a>
-                <a href="../webpages/retroSneakers.html">Retro Sneakers</a>
-                <a href="#">Hype Sneakers</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact</a>
-            </nav>
-        </div>
-
-        <div class="bodyText">
-            <h1>Your One-Stop Sneaker Shop</h1>
-            <h2>Style, Quality, and Comfort in Every Step</h2>
-            <p>
-                At FlyCity, we pride ourselves on offering top-quality sneakers that 
-                combine comfort and style. Every pair is meticulously inspected by 
-                our team of experts to ensure you only get the best. Whether you're 
-                looking for retro kicks or the latest hype sneakers, FlyCity has 
-                something for everyone.
-            </p>
-        </div>
-
-        <div class="monthSale">
-            <h1>Monthly Exclusive Deals</h1>
-            <p>Check out our special bundles updated on the 15th of each month!</p>
-        </div>
-
-        <!-- Featured Products Section -->
-        <div class="productSection">
-            <!-- Product Box 1 -->
-            <div class="box">
-                <img src="../images/product1.jpg" alt="Retro Jordans">
-                <h1>Retro Jordans</h1>
-                <p>Experience the timeless style and comfort of Retro Jordans. Perfect for any sneaker enthusiast!</p>
-                <button id="click">More Info</button>
-            </div>
-
-            <!-- Product Box 2 -->
-            <div class="box">
-                <img src="../images/product2.jpg" alt="Air Force 1">
-                <h1>Air Force 1</h1>
-                <p>Classic design meets unparalleled comfort with the iconic Air Force 1.</p>
-                <button id="click">More Info</button>
-            </div>
-
-            <!-- Product Box 3 -->
-            <div class="box">
-                <img src="../images/product3.jpg" alt="Yeezy Boost 350">
-                <h1>Yeezy Boost 350</h1>
-                <p>Stand out in style with the unique and futuristic Yeezy Boost 350.</p>
-                <button id="click">More Info</button>
-            </div>
-
-            <!-- Product Box 4 -->
-            <div class="box">
-                <img src="../images/product4.jpg" alt="Converse Chuck Taylors">
-                <h1>Converse Chuck Taylors</h1>
-                <p>The ultimate blend of retro vibes and contemporary appeal. A true sneaker classic!</p>
-                <button id="click">More Info</button>
-            </div>
-        </div>
-
-        <!-- Footer Section -->
-        <div class="footerContainer">
-            <nav>
-                <a href="../index.html">Home</a>
-                <a href="../webpages/retroSneakers.html">Retro Sneakers</a>
-                <a href="#">Hype Sneakers</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact</a>
-            </nav>
-            <p>&copy; 2024 FlyCity. All rights reserved.</p>
-        </div>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="button-container">
+      <button class="login-button" id="loginButton">Login</button>
+      <button class="signup-button">Register</button>
     </div>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to FlyCity</h1>
+      <p>Your One-Stop Sneaker Shop - Style, Quality, and Comfort in Every Step</p>
+      <a href="#" class="cta-button">Shop Now</a>
+    </div>
+  </section>
+  <nav class="nav">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../webpages/retroSneakers.html">Retro Sneakers</a></li>
+      <li><a href="#">Hype Sneakers</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="../webpages/login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Monthly Sale Section -->
+  <section class="monthly-sale">
+    <h2>Monthly Exclusive Deals</h2>
+    <p>Check out our special bundles updated on the 15th of each month!</p>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="featured-products">
+    <h2>Shop Our Favorites</h2>
+    <div class="product-grid">
+      <!-- Product Box 1 -->
+      <div class="product-item">
+        <img src="images/retro.avif" alt="Retro Jordans">
+        <h3>Retro Jordans</h3>
+        <p>Experience the timeless style and comfort of Retro Jordans.</p>
+        <a href="#" class="buy-button">More Info</a>
+      </div>
+
+      <!-- Product Box 2 -->
+      <div class="product-item">
+        <img src="images/airforce.avif" alt="Air Force 1">
+        <h3>Air Force 1</h3>
+        <p>Classic design meets unparalleled comfort with the iconic Air Force 1.</p>
+        <a href="#" class="buy-button">More Info</a>
+      </div>
+
+      <!-- Product Box 3 -->
+      <div class="product-item">
+        <img src="images/yeezy.webp" alt="Yeezy Boost 350">
+        <h3>Yeezy Boost 350</h3>
+        <p>Stand out in style with the unique and futuristic Yeezy Boost 350.</p>
+        <a href="#" class="buy-button">More Info</a>
+      </div>
+
+      <!-- Product Box 4 -->
+      <div class="product-item">
+        <img src="images/converse.jpg" alt="Converse Chuck Taylors">
+        <h3>Converse Chuck Taylors</h3>
+        <p>The ultimate blend of retro vibes and contemporary appeal.</p>
+        <a href="#" class="buy-button">More Info</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-section footer-links">
+      <h4>Company</h4>
+      <a href="#">About Us</a>
+      <a href="#">Careers</a>
+      <a href="#">Sustainability</a>
+      <a href="#">Press</a>
+    </div>
+    <div class="footer-section footer-links">
+      <h4>Help</h4>
+      <a href="#">Customer Service</a>
+      <a href="#">FAQs</a>
+      <a href="#">Returns & Exchanges</a>
+    </div>
+    <div class="footer-section footer-links">
+      <h4>Follow Us</h4>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">Facebook</a>
+      <a href="#">YouTube</a>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 FlyCity. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/index.js"></script>
 </body>
 </html>
