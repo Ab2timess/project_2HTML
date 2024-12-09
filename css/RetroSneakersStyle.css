@@ -3,11 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
+@media (min-width: 769px){
 .gridContainer{    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2fr 0.5fr 1fr 0.5fr;
-    min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 2fr 0.5fr 1fr 0.5fr;
+        min-height: 100vh;
 }
 #banner h1{
     background-color: plum;
@@ -217,4 +219,82 @@ img{
     color: white;
     text-align: center;
 }
+}
+@media (max-width: 768px) {
+.gridContainer {
+    display: flex; /* Change grid to flex for simpler stacking */
+    flex-direction: column; /* Stack all elements vertically */
+    min-height: 100vh;
+}
 
+#banner {
+    font-size: 2.5em; /* Reduce font size for readability on small screens */
+    background-image: url(../images/andras-vas-IN5NlcSZJNY-unsplash.jpg); /* Optional mobile-friendly banner image */
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    text-align: center; /* Center the text */
+ }
+
+#banner h1 {
+    padding: 0 20px;
+    background-color: blueviolet;
+    font-size: 1.5em; /* Smaller heading font */
+}
+
+.nav-container {
+    font-size: 1em;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    background-color: black;
+    display: block; 
+    border-bottom: 1px solid white;
+    padding: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bodyText h2, .monthSale h1{
+    margin: 10px 0;
+    text-align: center;
+}
+.bodyText, .monthSale {
+        margin: 10px; /* Reduce margins for compact view */
+        text-align: center; /* Align text for better readability */
+    }
+
+.box, .box2, .box3, .box4 {
+    margin: 20px 0;
+    justify-content: center;
+}
+
+img {
+    width: 100%; 
+    height: 60vh;/* Make images responsive */
+}
+
+.footerContainer {
+    flex-direction: row; /* Stack footer content */
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    }
+
+    .footerContainer nav {
+        display: inline;
+        font-size: 0.9em;
+    }
+
+    .footerContainer p {
+        font-size: 1em;
+        text-align: center;
+    }
+    
+   
+  }
+  
