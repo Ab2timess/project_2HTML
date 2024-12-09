@@ -1,62 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlyCity</title>
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlyCity</title>
+  <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-    <nav>
-        <a href="home">Home</a> |
-        <a href="retro">Retro Sneakers</a> |
-        <a href="hype">Hype Sneakers</a> |
-        <a href="aboutUs">About Us</a> |
-        <a href="contact">Contact</a>
-    </nav>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="button-container">
+      <button class="login-button" id="loginButton">Login</button>
+      <button class="signup-button" id="signup-button">Register</button>
+    </div>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to FlyCity</h1>
+      <p>Your One-Stop Sneaker Shop - Style, Quality, and Comfort in Every Step</p>
+      <a href="#" class="cta-button">Shop Now</a>
+    </div>
+  </section>
+  <nav class="nav">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../webpages/retroSneakers.html">Retro Sneakers</a></li>
+      <li><a href="webpages/hypeSneaker.html">Hype Sneakers</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="../webpages/login.html">Login</a></li>
+    </ul>
+  </nav>
 
-    <header>
-        <img src="" alt="shoes" class="image">
-    </header>
+  <!-- Monthly Sale Section -->
+  <section class="monthly-sale">
+    <h2>Monthly Exclusive Deals</h2>
+    <p>Check out our special bundles updated on the 15th of each month!</p>
+  </section>
 
-    <section id="slogan">
-        <h1></h1>
-    </section>
+  <!-- Featured Products Section -->
+  <section class="featured-products">
+    <h2>Shop Our Favorites</h2>
+    <div class="product-grid">
+      <!-- Product Box 1 -->
+      <div class="product-item">
+        <img src="images/retro.avif" alt="Retro Jordans">
+        <h3>Retro Jordans</h3>
+        <p>Experience the timeless style and comfort of Retro Jordans.</p>
+        <a href="#" class="buy-button">More Info</a>
+      </div>
 
-    <section id="about">
-        <p>
+      <!-- Product Box 2 -->
+      <div class="product-item">
+        <img src="images/airforce.avif" alt="Air Force 1">
+        <h3>Air Force 1</h3>
+        <p>Classic design meets unparalleled comfort with the iconic Air Force 1.</p>
+        <a href="#" class="buy-button">More Info</a>
+      </div>
 
-        </p>
-    </section>
+      <!-- Product Box 3 -->
+      <div class="product-item">
+        <img src="images/yeezy.webp" alt="Yeezy Boost 350">
+        <h3>Yeezy Boost 350</h3>
+        <p>Stand out in style with the unique and futuristic Yeezy Boost 350.</p>
+        <a href="#" class="buy-button">More Info</a>
+      </div>
 
-    <section id="models">
-        <h2>FEATURED MODELS</h2>
-        <ul>
-            <li>
-                <img src="" alt="">
-                <p></p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <p></p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <p></p>
-            </li>
-        </ul>
-    </section>
+      <!-- Product Box 4 -->
+      <div class="product-item">
+        <img src="images/converse.jpg" alt="Converse Chuck Taylors">
+        <h3>Converse Chuck Taylors</h3>
+        <p>The ultimate blend of retro vibes and contemporary appeal.</p>
+        <a href="#" class="buy-button">More Info</a>
+      </div>
+    </div>
+  </section>
 
-    <section id="extras">
-        <h2></h2>
-        <p>
-           
-        </p>
-    </section>
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-section footer-links">
+      <h4>Company</h4>
+      <a href="#">About Us</a>
+      <a href="#">Careers</a>
+      <a href="#">Sustainability</a>
+      <a href="#">Press</a>
+    </div>
+    <div class="footer-section footer-links">
+      <h4>Help</h4>
+      <a href="#">Customer Service</a>
+      <a href="#">FAQs</a>
+      <a href="#">Returns & Exchanges</a>
+    </div>
+    <div class="footer-section footer-links">
+      <h4>Follow Us</h4>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">Facebook</a>
+      <a href="#">YouTube</a>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 FlyCity. All rights reserved.</p>
+    </div>
+  </footer>
 
-    <footer>
-        <p>&copy;</p>
-        <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
-    </footer>
+  <script src="js/index.js"></script>
 </body>
 </html>
