@@ -172,6 +172,40 @@ h2{
 .product-item a:hover {
   background-color: gray;
 }
+.opening-hours {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.opening-hours h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: #333;
+  color: black;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
 
 footer {
   background-color: #111;
@@ -185,10 +219,6 @@ footer {
 .footer-section {
   flex: 1;
   margin: 10px;
-}
-
-.footer-logo img {
-  max-width: 100px;
 }
 
 .footer-links a {
