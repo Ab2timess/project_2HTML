@@ -52,8 +52,6 @@ input{
     margin-left: 10px;
 }
 
-
-
 .form-container:hover{
     color: aliceblue;
     background-color: rgb(58, 58, 58);
@@ -69,22 +67,20 @@ body{
     background-image: url(../images/andres-jasso-PqbL_mxmaUE-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    background-color: rgba(58, 57, 57, 0.607);
 }
 .form-container{
     grid-column: 2;
     margin: 50px 0px;
-    background-color: rgb(238, 242, 242);
+    background-color: rgb(77, 56, 75);
     justify-content: center;
     align-items: center;
     width: 450px;
     height: 600px;
+    color: antiquewhite;
     border: 3px solid rgba(0, 0, 0, 0.3);
     border-radius: 30px;
     padding: 0 20px;
-    
 }
-
 
 input{
     width: 100%;
@@ -121,10 +117,43 @@ legend{
 
 .footer-container{
     grid-column: 1 / 4;
-    grid-row: 3 / 5;
+    grid-row: 5;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(161, 161, 161);
     
+}
+@media (max-width: 768px) {
+.container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3em; 
+}
+
+#headTag {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.form-container {
+        grid-column: 1;
+        margin: 10px auto;
+}
+
+
+legend {
+    font-size: 4em;
+}
+
+.footer-container {
+    grid-column: 1;
+    padding: 20px;
+    margin-top: 50px;
+}
 }
