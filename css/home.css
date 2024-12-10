@@ -112,7 +112,6 @@ h2{
   font-size: 16px;
 }
 
-/* Products Section */
 .products {
   padding: 50px 20px;
   text-align: center;
@@ -173,8 +172,41 @@ h2{
 .product-item a:hover {
   background-color: gray;
 }
+.opening-hours {
+  margin: 2rem 0;
+  text-align: center;
+}
 
-/* Footer Section */
+.opening-hours h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: #333;
+  color: black;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
 footer {
   background-color: #111;
   color: #fff;
@@ -187,10 +219,6 @@ footer {
 .footer-section {
   flex: 1;
   margin: 10px;
-}
-
-.footer-logo img {
-  max-width: 100px;
 }
 
 .footer-links a {
@@ -210,4 +238,120 @@ footer {
   margin-top: 20px;
   font-size: 12px;
   color: #aaa;
+}
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .button-container button {
+    padding: 8px 15px;
+    font-size: 0.9em;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+  }
+
+  .product-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .product-item {
+    flex: 1 1 100%;
+  }
+
+  table {
+    font-size: 0.9em;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9em;
+  }
+
+  .header {
+    padding: 5px;
+  }
+
+  .button-container button {
+    font-size: 0.8em;
+    padding: 6px 12px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .nav ul li a {
+    font-size: 1em;
+  }
+
+  .hero {
+    padding: 50px 10px;
+    background-size: cover;
+    font-size: 0.8em;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .cta-button {
+    font-size: 0.9em;
+    padding: 8px 16px;
+  }
+
+  .products {
+    padding: 20px 10px;
+  }
+
+  .product-item {
+    padding: 10px;
+  }
+
+  .product-item h3 {
+    font-size: 18px;
+  }
+
+  .opening-hours h2 {
+    font-size: 1.5rem;
+  }
+
+  table {
+    font-size: 0.8em;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
 }
